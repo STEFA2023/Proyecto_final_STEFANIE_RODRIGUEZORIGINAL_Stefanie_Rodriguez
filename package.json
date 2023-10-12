@@ -1,0 +1,11 @@
+{
+  "name": "tercer_preentrega_proyecto_web_vegan_original",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
