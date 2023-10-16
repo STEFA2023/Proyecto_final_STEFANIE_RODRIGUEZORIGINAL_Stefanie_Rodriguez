@@ -160,9 +160,9 @@ header .logo {
   border-color: transparent;
 }
 .main_index .btn-primary {
-  --bs-btn-active-bg: #ef7aef;
+  --bs-btn-active-bg: $color_letras;
   --bs-btn-active-border-color: transparent;
-  --bs-btn-hover-bg: #ef7aef;
+  --bs-btn-hover-bg: $color_letras;
   --bs-btn-hover-border-color: transparent;
 }
 
@@ -227,10 +227,10 @@ header .logo {
   text-align: center;
   padding: 10%;
   font-family: "Simply_Rounded";
-  color: rgba(236, 255, 236, 0.8117647059);
+  color: #ef7aef;
 }
 .main_comenzar_el_cambio section .intro_cambio {
-  background-color: rgba(236, 255, 236, 0.8117647059);
+  background-color: rgba(207, 229, 207, 0.5882352941);
   border-radius: 10px;
   margin: 5%;
   padding: 10%;
@@ -238,7 +238,8 @@ header .logo {
 .main_comenzar_el_cambio section .intro_cambio p {
   display: grid;
   justify-items: center;
-  column-gap: 5%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
   font-family: "Simply_Rounded";
 }
 
@@ -377,7 +378,8 @@ nav h3 {
 nav .box_con_links {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  column-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
   row-gap: 20px;
   grid-auto-flow: row;
   justify-content: space-evenly;
@@ -441,6 +443,4 @@ footer section ul li .logo {
 dl, ol, ul {
   padding-left: 0;
   margin-bottom: 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

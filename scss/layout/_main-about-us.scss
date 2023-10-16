@@ -7,13 +7,13 @@
         flex-direction: column;
         padding: 15px;
         margin: 20px;
-        background-color: #ecffeccf;
+        background-color: $color_fondos;
         border-radius: 10px;
         font-family: "Simply_Rounded";
         h3{
             font-family: "PoetsenOne_regular";
             text-align: center;
-            color: #ef7aef;
+            color: $color_letras;
         }
         }
     }

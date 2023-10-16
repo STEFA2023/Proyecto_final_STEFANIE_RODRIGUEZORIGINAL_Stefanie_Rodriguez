@@ -6,7 +6,7 @@
     padding: 20px;
     .substitutos_mas_buscados{
         font-family: "Simply_Rounded";
-        background-color: #ecffeccf;
+        background-color: $color_fondos;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@
         margin: 8%;
         padding: 5%;
         h3{
-            color: #ef7aef;
+            color: $color_letras;
             text-align: center;
         }
     }
