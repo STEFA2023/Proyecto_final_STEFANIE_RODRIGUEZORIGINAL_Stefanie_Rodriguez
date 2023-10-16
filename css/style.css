@@ -1,17 +1,455 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'generales';
- *   |         ^^^^^^^^^^^
- *   '
- *   scss\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'generales';\d\a   \2502          ^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
+* {
+  padding: 0;
+  margin: 0;
 }
+
+@font-face {
+  font-family: "Friendly Schoolmates";
+  src: url(../font/Friendly\ Schoolmates\ \(Italic\)\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+@font-face {
+  font-family: "PoetsenOne_regular";
+  src: url(../font/PoetsenOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Simply_Rounded";
+  src: url(../font/Simply\ Rounded.ttf);
+}
+h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 20%;
+}
+
+header {
+  background-color: #CFF6CF;
+  height: auto;
+}
+header .nav-link {
+  justify-content: space-around;
+  color: #edb1ed;
+  font-family: "Simply_Rounded";
+}
+header .logo {
+  width: 60px;
+  padding: 10px;
+}
+
+.main_index {
+  background-image: url(../img/fondo_index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  /*h1{
+      font-family: "Friendly Schoolmates";
+      display: flex;
+      background-color: #ecffec;
+      background-position: center;
+      justify-content: center;
+      padding: 20px;
+      margin: 0 20%;
+  }*/
+}
+.main_index .box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 13%;
+  border-radius: 10px;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  font-family: "PoetsenOne_regular";
+}
+.main_index section h5 {
+  font-family: "PoetsenOne_regular";
+  text-align: center;
+}
+.main_index section .lista_subst li a {
+  color: #ef7aef;
+}
+.main_index section .v_blog {
+  list-style-type: none;
+  text-align: left;
+}
+.main_index section li a {
+  color: #ef7aef;
+}
+.main_index section .link_v_activism {
+  z-index: 1;
+  text-align: center;
+  color: #ef7aef;
+  text-decoration: none;
+  background: rgba(207, 246, 207, 0.3019607843);
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-family: "Simply_Rounded";
+}
+.main_index .banner {
+  width: 100%;
+  height: 250px;
+  animation: banner 10s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+@keyframes banner {
+  0%, 20% {
+    background-image: url(../img/cerdito_banner_index.png);
+  }
+  25%, 45% {
+    background-image: url(../img/cordero_banner_index.png);
+  }
+  50%, 70% {
+    background-image: url(../img/vacas_banner_index.png);
+  }
+  75%, 100% {
+    background-image: url(../img/monos_banner_index.png);
+  }
+}
+.main_index .banner .capa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.main_index a .boton_buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  padding: 5%;
+  margin: 10% auto;
+  color: #ef7aef;
+  font-family: "Simply_Rounded";
+  border-color: transparent;
+}
+.main_index .btn-primary {
+  --bs-btn-active-bg: #ef7aef;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-hover-bg: #ef7aef;
+  --bs-btn-hover-border-color: transparent;
+}
+
+.main_about_us {
+  background-image: url(../img/fondo_about_us.jpg);
+  background-size: contain;
+  padding: 20px;
+}
+.main_about_us .about_us {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 20px;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  font-family: "Simply_Rounded";
+}
+.main_about_us .about_us h3 {
+  font-family: "PoetsenOne_regular";
+  text-align: center;
+  color: #ef7aef;
+}
+
+.buscador_de_recetas {
+  background-image: url(../img/fondo_buscador_recetas.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+.buscador_de_recetas section h5 {
+  margin: 10%;
+  padding: 5%;
+  color: #ef7aef;
+  font-family: "Simply_Rounded";
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  text-align: center;
+}
+.buscador_de_recetas section .conjunto_buscadores {
+  display: grid;
+  justify-items: center;
+  row-gap: 10%;
+  padding: 5%;
+  margin-bottom: 30px;
+}
+.buscador_de_recetas .video_buscador {
+  display: flex;
+  padding: 5%;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.main_comenzar_el_cambio {
+  background-image: url(../img/fondo_comenzar_el_cambio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+}
+.main_comenzar_el_cambio section h1 {
+  text-align: center;
+}
+.main_comenzar_el_cambio section div h3 {
+  text-align: center;
+  padding: 10%;
+  font-family: "Simply_Rounded";
+  color: #ef7aef;
+}
+.main_comenzar_el_cambio section .intro_cambio {
+  background-color: rgba(207, 229, 207, 0.5882352941);
+  border-radius: 10px;
+  margin: 5%;
+  padding: 10%;
+}
+.main_comenzar_el_cambio section .intro_cambio p {
+  display: grid;
+  justify-items: center;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  font-family: "Simply_Rounded";
+}
+
+.main_contact {
+  background-image: url(../img/fondo_contacto_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.main_contact .formulario_de_contacto {
+  padding: 5%;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  margin: 10%;
+}
+.main_contact .form-label {
+  color: #ef7aef;
+  font-family: "PoetsenOne_regular";
+}
+.main_contact .email {
+  color: #ef7aef;
+  font-size: 16px;
+  font-family: "PoetsenOne_regular";
+}
+
+.main_recetas_basicas {
+  background-image: url(../img/fondo_recetas_basicas.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+.main_recetas_basicas .recetas_basicas_intro {
+  display: block;
+  margin: 30px;
+  padding: 20PX;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  background-position: center;
+  font-family: "Simply_Rounded";
+}
+.main_recetas_basicas .receta_1 {
+  display: block;
+  margin: 30px;
+  padding: 20px;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  background-position: center;
+  font-family: "Simply_Rounded";
+}
+.main_recetas_basicas .receta_1 .imagen_receta_1 {
+  width: 150px;
+  padding: 10px;
+  margin: 20px;
+}
+.main_recetas_basicas .receta_1 h3 {
+  color: #ef7aef;
+}
+.main_recetas_basicas .receta_1 h5 {
+  color: #eb98eb;
+}
+.main_recetas_basicas .receta_2 {
+  display: block;
+  margin: 30px;
+  padding: 20px;
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  background-position: center;
+  font-family: "Simply_Rounded";
+}
+.main_recetas_basicas .receta_2 .imagen_receta_2 {
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
+.main_recetas_basicas .receta_2 h3 {
+  color: #ef7aef;
+}
+.main_recetas_basicas .receta_2 h5 {
+  color: #eb98eb;
+}
+.main_recetas_basicas .foto_recetas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_substitutos_mas_buscados {
+  background-image: url(../img/fondo_substitutos_veganos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.main_substitutos_mas_buscados .substitutos_mas_buscados {
+  font-family: "Simply_Rounded";
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  margin: 8%;
+  padding: 5%;
+}
+.main_substitutos_mas_buscados .substitutos_mas_buscados h3 {
+  color: #ef7aef;
+  text-align: center;
+}
+
+.main_intro_avtivismo {
+  background-image: url(../img/fondo_v_activism_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.introduccion_activismo {
+  font-family: "Simply_Rounded";
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  margin: 8%;
+  padding: 20px;
+}
+.introduccion_activismo h3 {
+  color: #ef7aef;
+}
+
+nav h3 {
+  font-family: "PoetsenOne_regular";
+  text-align: center;
+  color: #ef7aef;
+}
+nav .box_con_links {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  padding: 10%;
+}
+nav .box_con_links .logo_paginas_amigas {
+  border-radius: 10px;
+}
+
+.main_v_nutris {
+  background-image: url(../img/fondo_v_nutris.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.main_v_nutris .presentacion_nutris {
+  font-family: "Simply_Rounded";
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  display: block;
+  background-position: center;
+  margin: 10%;
+  padding: 20px;
+}
+.main_v_nutris .presentacion_nutris h3 {
+  color: #ef7aef;
+}
+.main_v_nutris .presentacion_nutris .foto_presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+.main_v_nutris .presentacion_nutris .foto_nutri_1 {
+  width: 30%;
+}
+.main_v_nutris .presentacion_nutris .foto_nutri_2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #CFE5CF;
+}
+footer section ul li {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 0%;
+}
+footer section ul li .logo {
+  width: 50px;
+  padding: 10px;
+}
+footer dl, footer ol, footer ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+/*Desktop*/
+@media (min-width: 1200px) {
+  .grilla_box {
+    display: flex;
+    flex-direction: row;
+  }
+  .lista_subst {
+    margin-top: 15%;
+  }
+  .v_blog {
+    margin-top: 10%;
+  }
+  .banner {
+    max-width: 70%;
+    height: 350px;
+    margin: 15%;
+  }
+  .formulario_de_contacto {
+    margin: 15%;
+    justify-items: center;
+  }
+  .video_cambio {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+  .main_recetas_basicas .receta_1 .imagen_receta_1 {
+    width: 250px;
+  }
+  .paginas_amigas h3 {
+    font-size: 40px;
+    color: #ed17ed;
+  }
+}/*# sourceMappingURL=style.css.map */
