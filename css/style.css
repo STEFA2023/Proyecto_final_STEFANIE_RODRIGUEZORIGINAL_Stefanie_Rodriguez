@@ -74,7 +74,7 @@ header .logo {
 }
 
 .main_index {
-  background-image: url(../img/fondo_index.jpg);
+  background-image: url(../img/fondo_index.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -127,16 +127,16 @@ header .logo {
 }
 @keyframes banner {
   0%, 20% {
-    background-image: url(../img/cerdito_banner_index.png);
+    background-image: url(../img/cerdito_banner_index.webp);
   }
   25%, 45% {
-    background-image: url(../img/cordero_banner_index.png);
+    background-image: url(../img/cordero_banner_index.webp);
   }
   50%, 70% {
-    background-image: url(../img/vacas_banner_index.png);
+    background-image: url(../img/vacas_banner_index.webp);
   }
   75%, 100% {
-    background-image: url(../img/monos_banner_index.png);
+    background-image: url(../img/monos_banner_index.webp);
   }
 }
 .main_index .banner .capa {
@@ -167,7 +167,7 @@ header .logo {
 }
 
 .main_about_us {
-  background-image: url(../img/fondo_about_us.jpg);
+  background-image: url(../img/fondo_about_us.webp);
   background-size: contain;
   padding: 20px;
 }
@@ -187,7 +187,7 @@ header .logo {
 }
 
 .buscador_de_recetas {
-  background-image: url(../img/fondo_buscador_recetas.jpg);
+  background-image: url(../img/fondo_buscador_recetas.webp);
   background-size: cover;
   padding: 20px;
 }
@@ -215,7 +215,7 @@ header .logo {
 }
 
 .main_comenzar_el_cambio {
-  background-image: url(../img/fondo_comenzar_el_cambio.jpg);
+  background-image: url(../img/fondo_comenzar_el_cambio.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10%;
@@ -244,7 +244,7 @@ header .logo {
 }
 
 .main_contact {
-  background-image: url(../img/fondo_contacto_2.jpg);
+  background-image: url(../img/fondo_contacto_2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -266,7 +266,7 @@ header .logo {
 }
 
 .main_recetas_basicas {
-  background-image: url(../img/fondo_recetas_basicas.jpg);
+  background-image: url(../img/fondo_recetas_basicas.webp);
   background-size: cover;
   padding: 20px;
 }
@@ -326,7 +326,7 @@ header .logo {
 }
 
 .main_substitutos_mas_buscados {
-  background-image: url(../img/fondo_substitutos_veganos.jpg);
+  background-image: url(../img/fondo_substitutos_veganos.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@ header .logo {
 }
 
 .main_intro_avtivismo {
-  background-image: url(../img/fondo_v_activism_3.jpg);
+  background-image: url(../img/fondo_v_activism_3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -390,7 +390,7 @@ nav .box_con_links .logo_paginas_amigas {
 }
 
 .main_v_nutris {
-  background-image: url(../img/fondo_v_nutris.jpg);
+  background-image: url(../img/fondo_v_nutris.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

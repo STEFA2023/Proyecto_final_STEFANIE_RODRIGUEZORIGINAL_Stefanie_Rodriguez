@@ -1,5 +1,5 @@
 .main_index{
-    background-image: url(../img/fondo_index.jpg);
+    background-image: url(../img/fondo_index.webp);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -52,16 +52,16 @@
                     border-radius: 10px;
                     @keyframes banner{
                         0%, 20%{
-                            background-image: url(../img/cerdito_banner_index.png);
+                            background-image: url(../img/cerdito_banner_index.webp);
                         }
                         25%, 45%{
-                            background-image: url(../img/cordero_banner_index.png);
+                            background-image: url(../img/cordero_banner_index.webp);
                         }
                         50%, 70%{
-                            background-image: url(../img/vacas_banner_index.png);
+                            background-image: url(../img/vacas_banner_index.webp);
                         }
                         75%, 100%{
-                            background-image: url(../img/monos_banner_index.png);
+                            background-image: url(../img/monos_banner_index.webp);
                         }
                     }
                     .capa{
