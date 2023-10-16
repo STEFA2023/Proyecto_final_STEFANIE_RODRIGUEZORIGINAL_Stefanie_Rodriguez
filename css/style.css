@@ -438,6 +438,10 @@ footer section ul li {
 footer section ul li .logo {
   width: 50px;
   padding: 10px;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+footer section ul li .logo:hover {
+  width: 70px;
 }
 
 dl, ol, ul {
