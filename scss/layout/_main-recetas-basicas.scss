@@ -6,7 +6,7 @@
         display: block;
         margin: 30px;
         padding: 20PX;
-        background-color: #ecffeccf;
+        background-color: $color_fondos_box;
         border-radius: 10px;
         background-position: center;
         font-family: "Simply_Rounded";
@@ -15,7 +15,7 @@
             display: block;
             margin: 30px;
             padding: 20px;
-            background-color: #ecffeccf ;
+            background-color: $color_fondos_box;
             border-radius: 10px;
             background-position: center;
             font-family: "Simply_Rounded";
@@ -25,17 +25,17 @@
                 margin: 20px;
             }
             h3{
-                color: #ef7aef;
+                color: $color_textos;
             }
             h5{
-                color: #eb98eb;
+                color: $color_textos;
             }
         }
     .receta_2{
         display: block;
         margin: 30px;
         padding: 20px;
-        background-color: #ecffeccf ;
+        background-color: $color_fondos_box;
         border-radius: 10px;
         background-position: center;
         font-family: "Simply_Rounded";
@@ -45,10 +45,10 @@
             margin: 20px;
         }
         h3{
-            color: #ef7aef;
+            color: $color_textos;
         }
         h5{
-            color: #eb98eb;
+            color: $color_textos;
         }
     }
     .foto_recetas{

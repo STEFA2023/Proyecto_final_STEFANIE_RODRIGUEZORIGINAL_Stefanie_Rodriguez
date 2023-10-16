@@ -1,3 +1,37 @@
+/*Desktop*/
+@media (min-width: 1200px) {
+  .grilla_box {
+    display: flex;
+    flex-direction: row;
+  }
+  .lista_subst {
+    margin-top: 15%;
+  }
+  .v_blog {
+    margin-top: 10%;
+  }
+  .banner {
+    max-width: 70%;
+    height: 350px;
+    margin: 15%;
+  }
+  .formulario_de_contacto {
+    margin: 15%;
+    justify-items: center;
+  }
+  .video_cambio {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+  }
+  .main_recetas_basicas .receta_1 .imagen_receta_1 {
+    width: 250px;
+  }
+  .paginas_amigas h3 {
+    font-size: 40px;
+    color: #ed17ed;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -417,39 +451,4 @@ footer section ul li .logo {
 footer dl, footer ol, footer ul {
   padding-left: 0;
   margin-bottom: 0;
-}
-
-/*Desktop*/
-@media (min-width: 1200px) {
-  .grilla_box {
-    display: flex;
-    flex-direction: row;
-  }
-  .lista_subst {
-    margin-top: 15%;
-  }
-  .v_blog {
-    margin-top: 10%;
-  }
-  .banner {
-    max-width: 70%;
-    height: 350px;
-    margin: 15%;
-  }
-  .formulario_de_contacto {
-    margin: 15%;
-    justify-items: center;
-  }
-  .video_cambio {
-    display: flex;
-    justify-content: center;
-    padding: 5%;
-  }
-  .main_recetas_basicas .receta_1 .imagen_receta_1 {
-    width: 250px;
-  }
-  .paginas_amigas h3 {
-    font-size: 40px;
-    color: #ed17ed;
-  }
 }/*# sourceMappingURL=style.css.map */
