@@ -32,9 +32,9 @@
             .link_v_activism{
                         z-index: 1;
                         text-align: center;
-                        color: $color_letras;
+                        color: #ed5aed;
                         text-decoration: none;
-                        background: #cff6cf4d;
+                        background: $color_fondos;
                         padding: 5px 5px;
                         border-radius: 10px;
                         font-family: "Simply_Rounded" 
@@ -42,7 +42,7 @@
     }
     .banner{
                     width: 100%;
-                    height: 250px;
+                    height: 180px;
                     animation: banner 10s infinite linear alternate;
                     background-size: 100% 100%;
                     position: relative;
@@ -51,18 +51,18 @@
                     align-items: center;
                     border-radius: 10px;
                     @keyframes banner{
-                        0%, 20%{
-                            background-image: url(../img/cerdito_banner_index.webp);
+                        0%, 45%{
+                            background-image: url(../img/banner1desktop.webp);
                         }
-                        25%, 45%{
-                            background-image: url(../img/cordero_banner_index.webp);
+                        50%, 100%{
+                            background-image: url(../img/banner2desktop.webp);
                         }
-                        50%, 70%{
+                        /*50%, 70%{
                             background-image: url(../img/vacas_banner_index.webp);
                         }
                         75%, 100%{
                             background-image: url(../img/monos_banner_index.webp);
-                        }
+                        }*/
                     }
                     .capa{
                         width: 100%;
