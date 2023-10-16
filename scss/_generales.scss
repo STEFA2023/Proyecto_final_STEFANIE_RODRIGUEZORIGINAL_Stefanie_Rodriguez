@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Friendly Schoolmates";
+    src: url(../font/Friendly\ Schoolmates\ \(Italic\)\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+
+@font-face {
+    font-family: "PoetsenOne_regular";
+    src: url(../font/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Simply_Rounded";
+    src: url(../font/Simply\ Rounded.ttf);
+}
+
+h1{
+    font-family: "Friendly Schoolmates";
+    display: flex;
+    background-color: #ecffec;
+    background-position: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 20%;
+}

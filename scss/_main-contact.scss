@@ -1,0 +1,21 @@
+.main_contact{
+    background-image: url(../img/fondo_contacto_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    .formulario_de_contacto{
+        padding: 5%;
+        background-color: #ecffeccf;
+        border-radius: 10px;
+        margin: 10%;
+    }
+    .form-label{
+        color: #ef7aef;
+        font-family: "PoetsenOne_regular"
+    }
+    .email{
+        color: #ef7aef;
+        font-size: 16px;
+        font-family: "PoetsenOne_regular"
+    }
+}

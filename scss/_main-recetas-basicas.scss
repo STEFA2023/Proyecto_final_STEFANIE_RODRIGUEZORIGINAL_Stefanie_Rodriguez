@@ -1,0 +1,59 @@
+.main_recetas_basicas{
+    background-image: url(../img/fondo_recetas_basicas.jpg);
+    background-size:cover;
+    padding: 20px;
+    .recetas_basicas_intro{
+        display: block;
+        margin: 30px;
+        padding: 20PX;
+        background-color: #ecffeccf;
+        border-radius: 10px;
+        background-position: center;
+        font-family: "Simply_Rounded";
+    }
+    .receta_1{
+            display: block;
+            margin: 30px;
+            padding: 20px;
+            background-color: #ecffeccf ;
+            border-radius: 10px;
+            background-position: center;
+            font-family: "Simply_Rounded";
+            .imagen_receta_1{
+                width: 150px;
+                padding: 10px;
+                margin: 20px;
+            }
+            h3{
+                color: #ef7aef;
+            }
+            h5{
+                color: #eb98eb;
+            }
+        }
+    .receta_2{
+        display: block;
+        margin: 30px;
+        padding: 20px;
+        background-color: #ecffeccf ;
+        border-radius: 10px;
+        background-position: center;
+        font-family: "Simply_Rounded";
+        .imagen_receta_2{
+            width: 50%;
+            padding: 10px;
+            margin: 20px;
+        }
+        h3{
+            color: #ef7aef;
+        }
+        h5{
+            color: #eb98eb;
+        }
+    }
+    .foto_recetas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

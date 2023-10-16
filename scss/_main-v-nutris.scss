@@ -1,0 +1,33 @@
+.main_v_nutris{
+    background-image: url(../img/fondo_v_nutris.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    .presentacion_nutris{
+        font-family: "Simply_Rounded";
+        background-color: #ecffeccf;
+        border-radius: 10px;
+        display: block;
+        background-position: center;
+        margin: 10%;
+        padding: 20px;
+        h3{
+            color: #ef7aef;
+        }
+        .foto_presentacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10%;
+        }
+        .foto_nutri_1{
+            width: 30%;
+        }
+        .foto_nutri_2{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

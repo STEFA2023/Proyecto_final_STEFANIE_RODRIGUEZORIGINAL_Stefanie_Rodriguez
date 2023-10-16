@@ -1,0 +1,40 @@
+.main_intro_avtivismo{
+        background-image: url(../img/fondo_v_activism_3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+    }
+    .introduccion_activismo{
+        font-family: "Simply_Rounded";
+        background-color: #ecffeccf;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        margin: 8%;
+        padding: 20px;
+        h3{
+            color: #ef7aef;
+        }
+    }
+    nav{
+        h3{
+    font-family: "PoetsenOne_regular";
+    text-align: center;
+    color: #ef7aef;
+}
+.box_con_links{
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    padding: 10%;
+    .logo_paginas_amigas{
+        border-radius: 10px;
+    }
+}
+}

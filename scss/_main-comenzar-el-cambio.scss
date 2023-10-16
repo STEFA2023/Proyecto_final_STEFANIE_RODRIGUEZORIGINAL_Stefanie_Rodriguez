@@ -1,0 +1,29 @@
+.main_comenzar_el_cambio{
+    background-image: url(../img/fondo_comenzar_el_cambio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    section{
+        h1{
+        text-align: center;
+    }
+    div h3{
+        text-align: center;
+        padding: 10%;
+        font-family: "Simply_Rounded";
+        color: #ef7aef;
+    }
+    .intro_cambio{
+        background-color: #cfe5cf96;
+        border-radius: 10px;
+        margin: 5%;
+        padding: 10%;
+        p{
+            display: grid;
+            justify-items: center;
+            column-gap: 5%;
+            font-family: "Simply_Rounded";
+        }
+    }
+}
+}

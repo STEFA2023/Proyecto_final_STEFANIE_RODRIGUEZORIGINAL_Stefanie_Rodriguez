@@ -1,0 +1,19 @@
+.main_about_us{
+    background-image: url(../img/fondo_about_us.jpg);
+    background-size: contain;
+    padding: 20px;
+    .about_us{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 20px;
+        background-color: #ecffeccf;
+        border-radius: 10px;
+        font-family: "Simply_Rounded";
+        h3{
+            font-family: "PoetsenOne_regular";
+            text-align: center;
+            color: #ef7aef;
+        }
+        }
+    }
