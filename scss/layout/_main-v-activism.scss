@@ -7,7 +7,7 @@
     }
     .introduccion_activismo{
         font-family: "Simply_Rounded";
-        background-color: $color_fondos_box;
+        background-color: #ecffeccf;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -16,14 +16,14 @@
         margin: 8%;
         padding: 20px;
         h3{
-            color: $color_textos;
+            color: #ef7aef;
         }
     }
     nav{
         h3{
     font-family: "PoetsenOne_regular";
     text-align: center;
-    color: $color_textos;
+    color: #ef7aef;
 }
 .box_con_links{
     display:grid;
