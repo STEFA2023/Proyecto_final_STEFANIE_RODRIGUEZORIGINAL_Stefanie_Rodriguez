@@ -2,55 +2,50 @@
     background-image: url(../img/fondo_recetas_basicas.webp);
     background-size:cover;
     padding: 20px;
+    h1{
+        font-family: "Friendly Schoolmates";
+        display: flex;
+        background-color: #ecffec;
+        background-position: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
     .recetas_basicas_intro{
         display: block;
-        margin: 30px;
         padding: 20PX;
         background-color: $color_fondos;
         border-radius: 10px;
         background-position: center;
         font-family: "Simply_Rounded";
+        margin-top: 5%;
     }
-    .receta_1{
+    .receta{
             display: block;
-            margin: 30px;
-            padding: 20px;
+            padding: 40px;
+            margin-top: 5%;
             background-color: $color_fondos;
             border-radius: 10px;
             background-position: center;
             font-family: "Simply_Rounded";
             .imagen_receta_1{
-                width: 150px;
+                width: 55%;
                 padding: 10px;
                 margin: 20px;
             }
             h3{
                 color: $color_letras;
+                text-align: center;
             }
             h5{
                 color: $color_letras;
             }
+            .imagen_receta_2{
+                width: 90%;
+                padding: 10px;
+                margin: 20px;
+            }
         }
-    .receta_2{
-        display: block;
-        margin: 30px;
-        padding: 20px;
-        background-color: $color_fondos;
-        border-radius: 10px;
-        background-position: center;
-        font-family: "Simply_Rounded";
-        .imagen_receta_2{
-            width: 50%;
-            padding: 10px;
-            margin: 20px;
-        }
-        h3{
-            color: $color_letras;
-        }
-        h5{
-            color: $color_letras;
-        }
-    }
     .foto_recetas{
         display: flex;
         justify-content: center;

@@ -1,8 +1,14 @@
 /*Desktop*/
 @media (min-width: 1200px) {
+  h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
   .grilla_box {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .lista_subst {
     margin-top: 15%;
@@ -10,25 +16,76 @@
   .v_blog {
     margin-top: 10%;
   }
-  .main_index .banner {
-    max-width: 50%;
-    margin: 25%;
-  }
   .formulario_de_contacto {
-    margin: 15%;
+    margin: 10%;
     justify-items: center;
   }
-  .video_cambio {
+  .intro_cambio {
+    margin: 10%;
+  }
+  .videos {
     display: flex;
-    justify-content: center;
-    padding: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
   }
-  .main_recetas_basicas .receta_1 .foto_recetas .imagen_receta_1 {
-    width: 250px;
+  .about_us {
+    margin-right: 10%;
+    margin-left: 10%;
   }
-  .paginas_amigas h3 {
-    font-size: 40px;
-    color: #ed17ed;
+  .substitutos_mas_buscados {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .recetas_basicas_intro {
+    margin: 10%;
+  }
+  .receta {
+    margin: 10%;
+  }
+  .foto_recetas {
+    float: left;
+    width: 55%;
+    margin-top: 5%;
+  }
+  .foto_recetas .imagen_receta_1 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .foto_recetas .imagen_receta_2 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ingredientes {
+    float: right;
+    width: 35%;
+    margin-top: 8%;
+  }
+  .procedimiento_1 {
+    margin-top: 60%;
+  }
+  .procedimiento_2 {
+    margin-top: 40%;
+  }
+  .presentacion_nutris {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .presentacion_nutris .texto_presentacion {
+    padding: 10%;
+  }
+  .introduccion_activismo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .introduccion_activismo p {
+    padding: 2%;
+  }
+  .paginas_amigas {
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 * {
@@ -48,16 +105,6 @@
   font-family: "Simply_Rounded";
   src: url(../font/Simply\ Rounded.ttf);
 }
-h1 {
-  font-family: "Friendly Schoolmates";
-  display: flex;
-  background-color: #ecffec;
-  background-position: center;
-  justify-content: center;
-  padding: 20px;
-  margin: 0 20%;
-}
-
 header {
   background-color: #CFF6CF;
   height: auto;
@@ -78,13 +125,22 @@ header .logo {
   background-repeat: no-repeat;
   padding: 20px;
 }
+.main_index h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 .main_index .box {
   display: flex;
   justify-items: center;
   align-items: center;
   flex-direction: column;
   padding: 30px;
-  margin: 13%;
+  margin: 10%;
   border-radius: 10px;
   background-color: rgba(236, 255, 236, 0.8117647059);
   font-family: "PoetsenOne_regular";
@@ -131,12 +187,6 @@ header .logo {
   50%, 100% {
     background-image: url(../img/banner2desktop.webp);
   }
-  /*50%, 70%{
-      background-image: url(../img/vacas_banner_index.webp);
-  }
-  75%, 100%{
-      background-image: url(../img/monos_banner_index.webp);
-  }*/
 }
 .main_index .banner .capa {
   width: 100%;
@@ -170,11 +220,19 @@ header .logo {
   background-size: contain;
   padding: 20px;
 }
+.main_about_us h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 .main_about_us .about_us {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  margin: 20px;
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
   font-family: "Simply_Rounded";
@@ -217,22 +275,27 @@ header .logo {
   background-image: url(../img/fondo_comenzar_el_cambio.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10%;
+  padding: 5%;
 }
 .main_comenzar_el_cambio section h1 {
-  text-align: center;
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 .main_comenzar_el_cambio section div h3 {
   text-align: center;
-  padding: 10%;
   font-family: "Simply_Rounded";
   color: #ef7aef;
 }
 .main_comenzar_el_cambio section .intro_cambio {
   background-color: rgba(207, 229, 207, 0.5882352941);
   border-radius: 10px;
-  margin: 5%;
   padding: 10%;
+  margin-top: 5%;
 }
 .main_comenzar_el_cambio section .intro_cambio p {
   display: grid;
@@ -241,6 +304,12 @@ header .logo {
        column-gap: 5%;
   font-family: "Simply_Rounded";
 }
+.main_comenzar_el_cambio section .video_cambio {
+  width: 100%;
+  height: 250px;
+  margin-top: 5%;
+  border-radius: 10px;
+}
 
 .main_contact {
   background-image: url(../img/fondo_contacto_2.webp);
@@ -248,11 +317,19 @@ header .logo {
   background-repeat: no-repeat;
   padding: 20px;
 }
+.main_contact h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 .main_contact .formulario_de_contacto {
   padding: 5%;
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
-  margin: 10%;
 }
 .main_contact .form-label {
   color: #ef7aef;
@@ -269,54 +346,49 @@ header .logo {
   background-size: cover;
   padding: 20px;
 }
+.main_recetas_basicas h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 .main_recetas_basicas .recetas_basicas_intro {
   display: block;
-  margin: 30px;
   padding: 20PX;
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
   background-position: center;
   font-family: "Simply_Rounded";
+  margin-top: 5%;
 }
-.main_recetas_basicas .receta_1 {
+.main_recetas_basicas .receta {
   display: block;
-  margin: 30px;
-  padding: 20px;
+  padding: 40px;
+  margin-top: 5%;
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
   background-position: center;
   font-family: "Simply_Rounded";
 }
-.main_recetas_basicas .receta_1 .imagen_receta_1 {
-  width: 150px;
+.main_recetas_basicas .receta .imagen_receta_1 {
+  width: 55%;
   padding: 10px;
   margin: 20px;
 }
-.main_recetas_basicas .receta_1 h3 {
+.main_recetas_basicas .receta h3 {
+  color: #ef7aef;
+  text-align: center;
+}
+.main_recetas_basicas .receta h5 {
   color: #ef7aef;
 }
-.main_recetas_basicas .receta_1 h5 {
-  color: #ef7aef;
-}
-.main_recetas_basicas .receta_2 {
-  display: block;
-  margin: 30px;
-  padding: 20px;
-  background-color: rgba(236, 255, 236, 0.8117647059);
-  border-radius: 10px;
-  background-position: center;
-  font-family: "Simply_Rounded";
-}
-.main_recetas_basicas .receta_2 .imagen_receta_2 {
-  width: 50%;
+.main_recetas_basicas .receta .imagen_receta_2 {
+  width: 90%;
   padding: 10px;
   margin: 20px;
-}
-.main_recetas_basicas .receta_2 h3 {
-  color: #ef7aef;
-}
-.main_recetas_basicas .receta_2 h5 {
-  color: #ef7aef;
 }
 .main_recetas_basicas .foto_recetas {
   display: flex;
@@ -331,6 +403,15 @@ header .logo {
   background-repeat: no-repeat;
   padding: 20px;
 }
+.main_substitutos_mas_buscados h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 .main_substitutos_mas_buscados .substitutos_mas_buscados {
   font-family: "Simply_Rounded";
   background-color: rgba(236, 255, 236, 0.8117647059);
@@ -338,8 +419,8 @@ header .logo {
   display: flex;
   flex-direction: column;
   background-position: center;
-  margin: 8%;
   padding: 5%;
+  margin-top: 5%;
 }
 .main_substitutos_mas_buscados .substitutos_mas_buscados h3 {
   color: #ef7aef;
@@ -353,6 +434,15 @@ header .logo {
   background-size: cover;
   padding: 20px;
 }
+.main_intro_avtivismo h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 .introduccion_activismo {
   font-family: "Simply_Rounded";
@@ -362,11 +452,12 @@ header .logo {
   flex-direction: column;
   justify-content: center;
   background-position: center;
-  margin: 8%;
   padding: 20px;
 }
 .introduccion_activismo h3 {
   color: #ef7aef;
+  text-align: center;
+  padding: 5%;
 }
 
 nav h3 {
@@ -374,7 +465,14 @@ nav h3 {
   text-align: center;
   color: #ef7aef;
 }
-nav .box_con_links {
+
+.paginas_amigas {
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 5%;
+}
+.paginas_amigas .box_con_links {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   -moz-column-gap: 20px;
@@ -384,8 +482,9 @@ nav .box_con_links {
   justify-content: space-evenly;
   padding: 10%;
 }
-nav .box_con_links .logo_paginas_amigas {
+.paginas_amigas .box_con_links .logo_paginas_amigas {
   border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .main_v_nutris {
@@ -395,14 +494,23 @@ nav .box_con_links .logo_paginas_amigas {
   background-size: cover;
   padding: 20px;
 }
+.main_v_nutris h1 {
+  font-family: "Friendly Schoolmates";
+  display: flex;
+  background-color: #ecffec;
+  background-position: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
 .main_v_nutris .presentacion_nutris {
   font-family: "Simply_Rounded";
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
   display: block;
   background-position: center;
-  margin: 10%;
   padding: 20px;
+  margin-top: 5%;
 }
 .main_v_nutris .presentacion_nutris h3 {
   color: #ef7aef;

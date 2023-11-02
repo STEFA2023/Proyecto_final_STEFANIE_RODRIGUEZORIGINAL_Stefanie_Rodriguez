@@ -4,14 +4,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
+    h1{
+        font-family: "Friendly Schoolmates";
+        display: flex;
+        background-color: #ecffec;
+        background-position: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
     .presentacion_nutris{
         font-family: "Simply_Rounded";
         background-color: $color_fondos;
         border-radius: 10px;
         display: block;
         background-position: center;
-        margin: 10%;
         padding: 20px;
+        margin-top: 5%;
         h3{
             color: $color_letras;
         }

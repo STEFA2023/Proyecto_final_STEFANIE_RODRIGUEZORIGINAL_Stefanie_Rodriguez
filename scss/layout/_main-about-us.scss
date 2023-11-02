@@ -2,11 +2,19 @@
     background-image: url(../img/fondo_about_us.webp);
     background-size: contain;
     padding: 20px;
+    h1{
+        font-family: "Friendly Schoolmates";
+        display: flex;
+        background-color: #ecffec;
+        background-position: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
     .about_us{
         display: flex;
         flex-direction: column;
         padding: 15px;
-        margin: 20px;
         background-color: $color_fondos;
         border-radius: 10px;
         font-family: "Simply_Rounded";

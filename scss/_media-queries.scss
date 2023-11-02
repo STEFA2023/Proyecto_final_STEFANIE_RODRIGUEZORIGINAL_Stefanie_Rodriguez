@@ -1,9 +1,15 @@
 /*Desktop*/
 
 @media (min-width:1200px){
+    h1{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
     .grilla_box{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     .lista_subst{
         margin-top: 15%;
@@ -11,24 +17,73 @@
     .v_blog{
         margin-top: 10%;
     }
-    .main_index .banner{
-        max-width: 50%;
-        margin: 25%;
-    }
     .formulario_de_contacto{
-        margin: 15%;
+        margin: 10%;
         justify-items: center;
     }
-    .video_cambio{
+    .intro_cambio{
+        margin: 10%;
+    }
+    .videos{
         display: flex;
-        justify-content: center;
-        padding: 5%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-    .main_recetas_basicas .receta_1  .foto_recetas .imagen_receta_1{
-        width: 250px;
+    .about_us{
+        margin-right: 10%;
+        margin-left: 10%;
     }
-    .paginas_amigas h3{
-        font-size: 40px;
-        color: #ed17ed;
+    .substitutos_mas_buscados{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .recetas_basicas_intro{
+        margin: 10%;
+    }
+    .receta{
+        margin: 10%;
+    }
+    .foto_recetas{
+        float: left;
+        width: 55%;
+        margin-top: 5%;
+        .imagen_receta_1{
+            width: fit-content;
+        }
+        .imagen_receta_2{
+            width: fit-content;
+        }
+    }
+    .ingredientes{
+        float: right;
+        width: 35%;
+        margin-top: 8%;
+    }
+    .procedimiento_1{
+        margin-top: 60%;
+    }
+    .procedimiento_2{
+        margin-top: 40%;
+    }
+    .presentacion_nutris{
+        margin-left: 10%;
+        margin-right: 10%;
+        .texto_presentacion{
+            padding: 10%;
+        }
+    }
+    .introduccion_activismo{
+        margin-left: 10%;
+        margin-right: 10%;
+        p{
+            padding: 2%;
+        }
+    }
+    .paginas_amigas{
+        padding: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }

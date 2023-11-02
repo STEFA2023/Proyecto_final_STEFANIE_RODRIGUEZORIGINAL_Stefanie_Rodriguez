@@ -4,6 +4,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px;
+        h1{
+            font-family: "Friendly Schoolmates";
+            display: flex;
+            background-color: #ecffec;
+            background-position: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
     }
     .introduccion_activismo{
         font-family: "Simply_Rounded";
@@ -13,19 +22,26 @@
         flex-direction: column;
         justify-content: center;
         background-position: center;
-        margin: 8%;
         padding: 20px;
         h3{
             color: $color_letras;
+            text-align: center;
+            padding: 5%;
         }
     }
     nav{
         h3{
-    font-family: "PoetsenOne_regular";
-    text-align: center;
-    color: $color_letras;
-}
-.box_con_links{
+            font-family: "PoetsenOne_regular";
+            text-align: center;
+            color: $color_letras;
+    }
+    }
+.paginas_amigas{
+    background-color: $color_fondos;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 5%;
+    .box_con_links{
     display:grid;
     grid-template-columns: repeat(3, 100px);
     column-gap: 20px;
@@ -35,6 +51,7 @@
     padding: 10%;
     .logo_paginas_amigas{
         border-radius: 10px;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
     }
 }
 }

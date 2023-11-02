@@ -2,22 +2,27 @@
     background-image: url(../img/fondo_comenzar_el_cambio.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10%;
+    padding: 5%;
     section{
         h1{
-        text-align: center;
-    }
+            font-family: "Friendly Schoolmates";
+            display: flex;
+            background-color: #ecffec;
+            background-position: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
     div h3{
         text-align: center;
-        padding: 10%;
         font-family: "Simply_Rounded";
         color: $color_letras;
     }
     .intro_cambio{
         background-color: #cfe5cf96;
         border-radius: 10px;
-        margin: 5%;
         padding: 10%;
+        margin-top: 5%;
         p{
             display: grid;
             justify-items: center;
@@ -25,5 +30,11 @@
             font-family: "Simply_Rounded";
         }
     }
+}
+section .video_cambio{
+    width: 100%;
+    height: 250px;
+    margin-top: 5%;
+    border-radius: 10px;
 }
 }
