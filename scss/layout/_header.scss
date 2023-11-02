@@ -4,10 +4,25 @@ header {
     .nav-link {
         justify-content: space-around;
         color: #edb1ed;
-        font-family: "Simply_Rounded"
-    }
+        font-family: "Simply_Rounded";
+        text-align: right;
+        }
     .logo{
 width: 60px;
 padding: 10px;
     }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color:#edb1ed;
+    }
+    .dropdown-menu{
+        --bs-dropdown-bg: #CFF6CF;
+        --bs-dropdown-link-active-bg:none ;
+    }
+    .dropdown-item{
+        color: #edb1ed;
+        font-family: "Simply_Rounded";
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: #edb1ed;
+}
 }

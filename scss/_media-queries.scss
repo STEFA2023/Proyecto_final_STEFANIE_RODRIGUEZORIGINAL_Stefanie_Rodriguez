@@ -6,16 +6,29 @@
         margin-right: 10%;
         margin-top: 5%;
     }
+    .ms-auto{
+        margin-right: 10%;
+    }
+    .dropdown-item{
+        font-size: small;
+    }
     .grilla_box{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .lista_subst{
         margin-top: 15%;
     }
     .v_blog{
         margin-top: 10%;
+    }
+    #carouselExampleSlidesOnly{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     }
     .formulario_de_contacto{
         margin: 10%;
@@ -34,6 +47,7 @@
     .about_us{
         margin-right: 10%;
         margin-left: 10%;
+        margin-top: 5%;
     }
     .substitutos_mas_buscados{
         margin-left: 10%;
@@ -86,4 +100,3 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-}

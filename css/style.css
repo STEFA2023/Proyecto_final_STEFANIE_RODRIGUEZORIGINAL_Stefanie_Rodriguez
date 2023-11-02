@@ -5,10 +5,18 @@
     margin-right: 10%;
     margin-top: 5%;
   }
+  .ms-auto {
+    margin-right: 10%;
+  }
+  .dropdown-item {
+    font-size: small;
+  }
   .grilla_box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .lista_subst {
     margin-top: 15%;
@@ -16,78 +24,97 @@
   .v_blog {
     margin-top: 10%;
   }
-  .formulario_de_contacto {
-    margin: 10%;
-    justify-items: center;
-  }
-  .intro_cambio {
-    margin: 10%;
-  }
-  .videos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .about_us {
-    margin-right: 10%;
-    margin-left: 10%;
-  }
-  .substitutos_mas_buscados {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .recetas_basicas_intro {
-    margin: 10%;
-  }
-  .receta {
-    margin: 10%;
-  }
-  .foto_recetas {
-    float: left;
-    width: 55%;
-    margin-top: 5%;
-  }
-  .foto_recetas .imagen_receta_1 {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .foto_recetas .imagen_receta_2 {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .ingredientes {
-    float: right;
-    width: 35%;
-    margin-top: 8%;
-  }
-  .procedimiento_1 {
-    margin-top: 60%;
-  }
-  .procedimiento_2 {
-    margin-top: 40%;
-  }
-  .presentacion_nutris {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .presentacion_nutris .texto_presentacion {
-    padding: 10%;
-  }
-  .introduccion_activismo {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .introduccion_activismo p {
-    padding: 2%;
-  }
-  .paginas_amigas {
-    padding: 3%;
+  #carouselExampleSlidesOnly {
     margin-left: 10%;
     margin-right: 10%;
   }
 }
+.formulario_de_contacto {
+  margin: 10%;
+  justify-items: center;
+}
+
+.intro_cambio {
+  margin: 10%;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about_us {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.substitutos_mas_buscados {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.recetas_basicas_intro {
+  margin: 10%;
+}
+
+.receta {
+  margin: 10%;
+}
+
+.foto_recetas {
+  float: left;
+  width: 55%;
+  margin-top: 5%;
+}
+.foto_recetas .imagen_receta_1 {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.foto_recetas .imagen_receta_2 {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.ingredientes {
+  float: right;
+  width: 35%;
+  margin-top: 8%;
+}
+
+.procedimiento_1 {
+  margin-top: 60%;
+}
+
+.procedimiento_2 {
+  margin-top: 40%;
+}
+
+.presentacion_nutris {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.presentacion_nutris .texto_presentacion {
+  padding: 10%;
+}
+
+.introduccion_activismo {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.introduccion_activismo p {
+  padding: 2%;
+}
+
+.paginas_amigas {
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -113,10 +140,25 @@ header .nav-link {
   justify-content: space-around;
   color: #edb1ed;
   font-family: "Simply_Rounded";
+  text-align: right;
 }
 header .logo {
   width: 60px;
   padding: 10px;
+}
+header .navbar-nav .nav-link.active, header .navbar-nav .nav-link.show {
+  color: #edb1ed;
+}
+header .dropdown-menu {
+  --bs-dropdown-bg: #CFF6CF;
+  --bs-dropdown-link-active-bg:none ;
+}
+header .dropdown-item {
+  color: #edb1ed;
+  font-family: "Simply_Rounded";
+}
+header .navbar-nav {
+  --bs-nav-link-hover-color: #edb1ed;
 }
 
 .main_index {
@@ -168,6 +210,11 @@ header .logo {
   padding: 5px 5px;
   border-radius: 10px;
   font-family: "Simply_Rounded";
+}
+.main_index .d-block {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5%;
 }
 
 .main_about_us {
