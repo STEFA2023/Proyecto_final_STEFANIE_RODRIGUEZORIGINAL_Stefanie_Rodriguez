@@ -201,18 +201,7 @@ header .navbar-nav {
 .main_index section li a {
   color: #ef7aef;
 }
-.main_index section .link_v_activism {
-  z-index: 1;
-  text-align: center;
-  color: #ed5aed;
-  text-decoration: none;
-  background: rgba(236, 255, 236, 0.8117647059);
-  padding: 5px 5px;
-  border-radius: 10px;
-  font-family: "Simply_Rounded";
-}
-.main_index .d-block {
-  width: 100%;
+.main_index .carousel-inner {
   border-radius: 10px;
   margin-top: 5%;
 }

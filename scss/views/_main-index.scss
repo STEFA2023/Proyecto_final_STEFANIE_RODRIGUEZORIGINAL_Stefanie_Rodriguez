@@ -38,19 +38,8 @@
             li a{
                 color: $color_letras;
             }
-            .link_v_activism{
-                        z-index: 1;
-                        text-align: center;
-                        color: #ed5aed;
-                        text-decoration: none;
-                        background: $color_fondos;
-                        padding: 5px 5px;
-                        border-radius: 10px;
-                        font-family: "Simply_Rounded" 
-            }
     }
-    .d-block{
-        width: 100%;
+    .carousel-inner{
         border-radius: 10px;
         margin-top: 5%;
     }
