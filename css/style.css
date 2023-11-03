@@ -12,17 +12,17 @@
     font-size: small;
   }
   .grilla_box {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
     justify-content: space-between;
+    align-content: space-evenly;
+    row-gap: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 5%;
   }
   .lista_subst {
     margin-top: 15%;
-  }
-  .v_blog {
-    margin-top: 10%;
   }
   #carouselExampleSlidesOnly {
     margin-left: 10%;
@@ -416,6 +416,7 @@ header .navbar-nav {
   justify-content: center;
   background-position: center;
   padding: 20px;
+  margin: 0%;
 }
 .introduccion_activismo h3 {
   color: #ef7aef;
@@ -432,8 +433,8 @@ nav h3 {
 .paginas_amigas {
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
-  margin-top: 2%;
   padding: 5%;
+  margin: 2% 0%;
 }
 .paginas_amigas .box_con_links {
   display: grid;
