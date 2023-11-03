@@ -12,6 +12,11 @@
     .dropdown-item{
         font-size: small;
     }
+    .intro_inicio{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
     .grilla_box{
         display: grid;
         grid-template-columns: repeat(2, 40%);
@@ -29,10 +34,13 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    }
     .formulario_de_contacto{
         margin: 10%;
         justify-items: center;
+    }
+    .mapa{
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .intro_cambio{
         margin: 10%;
@@ -91,12 +99,16 @@
     .introduccion_activismo{
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 5%;
         p{
-            padding: 2%;
+            padding-right: 5%;
+            padding-left: 5%;
         }
     }
     .paginas_amigas{
         padding: 3%;
         margin-left: 10%;
         margin-right: 10%;
+        margin-bottom: 5%;
     }
+}

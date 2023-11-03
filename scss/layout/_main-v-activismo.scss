@@ -23,7 +23,6 @@
         justify-content: center;
         background-position: center;
         padding: 20px;
-        margin: 0%;
         h3{
             color: $color_letras;
             text-align: center;
@@ -41,7 +40,7 @@
     background-color: $color_fondos;
     border-radius: 10px;
     padding: 5%;
-    margin: 2% 0%;
+    margin-top: 5%;
     .box_con_links{
     display:grid;
     grid-template-columns: repeat(3, 100px);

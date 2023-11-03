@@ -11,6 +11,11 @@
   .dropdown-item {
     font-size: small;
   }
+  .intro_inicio {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
   .grilla_box {
     display: grid;
     grid-template-columns: repeat(2, 40%);
@@ -28,93 +33,86 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+  .formulario_de_contacto {
+    margin: 10%;
+    justify-items: center;
+  }
+  .mapa {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .intro_cambio {
+    margin: 10%;
+  }
+  .videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .about_us {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .substitutos_mas_buscados {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .recetas_basicas_intro {
+    margin: 10%;
+  }
+  .receta {
+    margin: 10%;
+  }
+  .foto_recetas {
+    float: left;
+    width: 55%;
+    margin-top: 5%;
+  }
+  .foto_recetas .imagen_receta_1 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .foto_recetas .imagen_receta_2 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ingredientes {
+    float: right;
+    width: 35%;
+    margin-top: 8%;
+  }
+  .procedimiento_1 {
+    margin-top: 60%;
+  }
+  .procedimiento_2 {
+    margin-top: 40%;
+  }
+  .presentacion_nutris {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .presentacion_nutris .texto_presentacion {
+    padding: 10%;
+  }
+  .introduccion_activismo {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  .introduccion_activismo p {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .paginas_amigas {
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
 }
-.formulario_de_contacto {
-  margin: 10%;
-  justify-items: center;
-}
-
-.intro_cambio {
-  margin: 10%;
-}
-
-.videos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.about_us {
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 5%;
-}
-
-.substitutos_mas_buscados {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.recetas_basicas_intro {
-  margin: 10%;
-}
-
-.receta {
-  margin: 10%;
-}
-
-.foto_recetas {
-  float: left;
-  width: 55%;
-  margin-top: 5%;
-}
-.foto_recetas .imagen_receta_1 {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-.foto_recetas .imagen_receta_2 {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.ingredientes {
-  float: right;
-  width: 35%;
-  margin-top: 8%;
-}
-
-.procedimiento_1 {
-  margin-top: 60%;
-}
-
-.procedimiento_2 {
-  margin-top: 40%;
-}
-
-.presentacion_nutris {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.presentacion_nutris .texto_presentacion {
-  padding: 10%;
-}
-
-.introduccion_activismo {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.introduccion_activismo p {
-  padding: 2%;
-}
-
-.paginas_amigas {
-  padding: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -176,6 +174,12 @@ header .navbar-nav {
   padding: 20px;
   border-radius: 10px;
 }
+.main_index .intro_inicio {
+  background-color: rgba(236, 255, 236, 0.8117647059);
+  border-radius: 10px;
+  font-family: "Simply_Rounded";
+  padding: 15px;
+}
 .main_index .box {
   display: flex;
   justify-items: center;
@@ -204,6 +208,11 @@ header .navbar-nav {
 .main_index .carousel-inner {
   border-radius: 10px;
   margin-top: 5%;
+}
+
+.seguinos {
+  color: #ef7aef;
+  font-family: "Simply_Rounded";
 }
 
 .main_about_us {
@@ -302,6 +311,9 @@ header .navbar-nav {
   color: #ef7aef;
   font-size: 16px;
   font-family: "PoetsenOne_regular";
+}
+.main_contact .mapa {
+  margin-top: 5%;
 }
 
 .main_recetas_basicas {
@@ -416,7 +428,6 @@ header .navbar-nav {
   justify-content: center;
   background-position: center;
   padding: 20px;
-  margin: 0%;
 }
 .introduccion_activismo h3 {
   color: #ef7aef;
@@ -434,7 +445,7 @@ nav h3 {
   background-color: rgba(236, 255, 236, 0.8117647059);
   border-radius: 10px;
   padding: 5%;
-  margin: 2% 0%;
+  margin-top: 5%;
 }
 .paginas_amigas .box_con_links {
   display: grid;

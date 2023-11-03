@@ -12,6 +12,12 @@
         padding: 20px;
         border-radius: 10px;
     }
+    .intro_inicio{
+        background-color: $color_fondos;
+        border-radius: 10px;
+        font-family: "Simply_Rounded";
+        padding: 15px;
+    }
     .box{
         display: flex;
         justify-items: center;
@@ -43,4 +49,8 @@
         border-radius: 10px;
         margin-top: 5%;
     }
+}
+.seguinos{
+    color: $color_letras;
+    font-family: "Simply_Rounded";
 }
